@@ -1,9 +1,15 @@
+body {margin:0;}
+
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #666;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
 }
 
 li{
@@ -16,9 +22,16 @@ li a{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
 }
 
 /* Color to hover*/
 li a:hover{
-  background-color: #111;
+  background-color: rgb(126, 126, 126);
+}
+
+.main{
+  padding:20px;
+  margin-top:30px
 }
